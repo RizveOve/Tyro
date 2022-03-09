@@ -19,17 +19,25 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.submit-button{
+    background-image: linear-gradient(to bottom, #06860c 0%, #03461a 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
 .cat1{
-    background-color: palevioletred;
+    background-image: linear-gradient(to bottom, #fc9bbb 0%, #f3598d 100%);
 }
 .cat2{
-    background-color: rgb(65, 83, 29);
+    background-image: linear-gradient(to bottom, #06860c 0%, #03461a 100%);
 }
 .cat3{
-    background-color:rgb(49, 49, 143);
+    background-image: linear-gradient(to bottom, #9286f7 0%, #412df5 100%);
 }
 .cat4{
-    background-color: rgb(100, 42, 71);
+    background-image: linear-gradient(to bottom, #7e5261 0%, #53162f 100%);
 }
 .cat1, .cat2, .cat3, .cat4{
     padding: 10px 20px;
@@ -55,4 +63,13 @@
 }
 .mb-20{
     margin-bottom: 20px;
+}
+.contact{
+    height: 300px;
+}
+.contact h6{
+    color: gray;
+}
+footer{
+    text-align: center;
 }
